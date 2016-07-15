@@ -1,0 +1,62 @@
+@font-face {
+    font-family: "Graphik Medium";
+    src: url("assets/Graphik Medium.woff") format('woff');
+}
+
+html, body {
+    display: flex;
+    font-family: 'Graphik-Medium';
+    letter-spacing: 0.05em;
+    line-height: 210%;
+    font-size: 11px;
+    justify-content: center;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    white-space: nowrap;
+    margin-right: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 20px;
+}
+
+#nav-bar {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    line-height: 55px;
+}
+
+#nav-group {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#nav-left{
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+}
+
+#nav-right{
+    display: flex;
+    width: auto;
+}
+
+#nav-logo{
+
+}
