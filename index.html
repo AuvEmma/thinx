@@ -2,32 +2,98 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>THINX</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <nav id='nav-bar'>
-        <div id="nav-group">
-            <div>
-            <ul id='nav-left'>
-                <div><li>MEN</li></div>
-                <div><li>WOMEN</li></div>
-                <div><li>SEARCH</li></div>
-            </ul>
-            </div>
-            <div id='nav-logo'>
-                <h1>THINX</h1>
-            </div>
-            <div>
-            <ul id='nav-right'>
-                <li>ENGLISH</li>
-                <li>CUSTOMER CARE</li>
-                <li>LOGIN</li>
-                <li>SHOPPING BAG</li>
-            </ul>
-            </div>
-        </div>
+      <ul id='nav-left-ul'>
+        <li class="nav-list">MEN</li>
+        <li class="nav-list">WOMEN</li>
+        <li class="nav-list">SEARCH</li>
+      </ul>
+
+      <div id='nav-mid-logo'>
+          <h1>THINX</h1>
+      </div>
+
+      <ul id='nav-right-ul'>
+        <li class="nav-list">ENGLISH</li>
+        <li class="nav-list">CUSTOMER CARE</li>
+        <li class="nav-list">LOGIN</li>
+        <li class="nav-list">SHOPPING BAG</li>
+      </ul>
     </nav>
+
+    <div id="middle-section" class="container">
+      <div id="middle-left" class="col-md-3">
+        <h2 class="text-left">HI-WAIST</h2>
+
+        <p class="text-left">
+          Heavy Days. Holds up to 2 tampon's worth.
+        </p>
+
+        <p class="text-left">
+          The phrase "treat yo'self" reaches new belly-button brushing heights with the Hi-Waist, and it's here just in time for cuffing season.
+        </p>
+      </div>
+
+      <div id="middle-pic" class="container">
+        <div id="myCarousel" class="carousel slide" data-ride='carousel'>
+          <ol class="carousel-indicators">
+            <li class="dots" data-target="#myCarousel" data-slide-to="0"></li>
+            <li class="dots" data-target="#myCarousel" data-slide-to="1" class="active"></li>
+            <li class="dots" data-target="#myCarousel" data-slide-to="2"></li>
+            <li class="dots" data-target="#myCarousel" data-slide-to="3"></li>
+            <li class="dots" data-target="#myCarousel" data-slide-to="4"></li>
+            <li class="dots" data-target="#myCarousel" data-slide-to="5"></li>
+          </ol>
+
+        <div class="carousel-inner" role="listbox">
+          <div class="item">
+            <img src="assets/highwaist_black_front_1024x1024.jpg" width="460" height="345">
+          </div>
+
+          <div class="item active">
+            <img src="assets/highwaist_black_front_2_1024x1024.jpg" width="460" height="345">
+          </div>
+
+          <div class="item">
+            <img src="assets/highwaist_black_front_3_1024x1024.jpg" width="460" height="345">
+          </div>
+
+          <div class="item">
+            <img src="assets/highwaist_black_front_4_1024x1024.jpg" width="460" height="345">
+          </div>
+
+          <div class="item">
+            <img src="assets/highwaist_black_back_1024x1024.jpg" width="460" height="345">
+          </div>
+
+          <div class="item">
+            <img src="assets/highwaist_black_side_1024x1024.jpg" width="460" height="345">
+          </div>
+
+        </div>
+      </div>
+
+      <div id="middle-right">
+
+      </div>
+    </div>
+
+    <div id="bottom-gallery">
+
+    </div>
   </body>
 </html>
-
