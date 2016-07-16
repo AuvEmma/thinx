@@ -40,6 +40,11 @@ h2 {
     justify-content: space-between;
     width: 100%;
     line-height: 55px;
+    min-height: 58px;
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    background: rgba(0,0,0);
 }
 
 #nav-left {
@@ -76,6 +81,7 @@ h2 {
 
 #middle-section {
   display: flex;
+  margin-top: 55px;
   width: 100%;
   font-size: 10px;
   background-color: #F8F8F9;
