@@ -94,18 +94,15 @@ li.dots {
   align-items: center;
 }
 
-@media screen and (max-width: 1130px) {
-
-}
 .btn{
   border-radius: 0;
   padding: 0;
 }
 
-.btn span.glyphicon {
+.btn.color span.glyphicon {
 	opacity: 0;
 }
-.btn.active span.glyphicon {
+.btn.color.active span.glyphicon {
 	opacity: 1;
 }
 
