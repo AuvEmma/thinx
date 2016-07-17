@@ -108,11 +108,19 @@
           		</div>
           	</div>
           </div>
-          <ul>
-            <li>Color</li>
-            <li>Quantaty</li>
-            <li>Size</li>
-          </ul>
+          <div class="input-group">
+            <span class="input-group-btn">
+                <button type="button" class="btn btn-default btn-number" disabled="disabled" data-type="minus" data-field="quant[1]">
+                    <span class="glyphicon glyphicon-minus"></span>
+                </button>
+            </span>
+            <input type="text" name="quant[1]" class="form-control input-number" value="1" min="1" max="10">
+            <span class="input-group-btn">
+                <button type="button" class="btn btn-default btn-number" data-type="plus" data-field="quant[1]">
+                    <span class="glyphicon glyphicon-plus"></span>
+                </button>
+            </span>
+          </div>
           <p>
             <a href="#">What's my size?</a>
           </p>
@@ -124,55 +132,66 @@
       </div>
     </div>
     <div id="bottom-gallery">
-      <div class="container">
+      <div class="container pic-row">
         <div class="col-md-6 pic">
-          <img src="assets/thinx_productpage_-04.jpg" alt="hiphugger" class="img-responsive col-md-8 center-block"/>
-          <a href="#">
-            <h5><u>Shop Hiphugger</u></h5>
-          </a>
-          <p>
-            heavy days
-          </p>
+          <div class="col-md-8">
+            <img src="assets/thinx_productpage_-04.jpg" alt="hiphugger" class="img-responsive"/>
+            <a href="#">
+              <h5><u>Shop Hiphugger</u></h5>
+            </a>
+            <p>
+              heavy days
+            </p>
+          </div>
         </div>
         <div class="col-md-6 pic">
-          <img src="assets/thinx_productpage_-03.jpg" alt="cheekyhugger" class="img-responsive col-md-8 center-block" />
-          <a href="#">
-            <h5><u>Shop Cheeky</u></h5>
-          </a>
-          <p>
-            light days
-          </p>
+          <div class="col-md-8">
+            <img src="assets/thinx_productpage_-03.jpg" alt="cheekyhugger" class="img-responsive" />
+            <a href="#">
+              <h5><u>Shop Cheeky</u></h5>
+            </a>
+            <p>
+              light days
+            </p>
+          </div>
         </div>
       </div>
       <div class="container pic">
-        <img src="assets/thinx_productpage_-05.jpg" alt="cheekyhugger" class="img-responsive col-md-5" />
-        <a href="#">
-          <h5><u>Shop Thong</u></h5>
-        </a>
-        <p>
-          lightest days
-        </p>
-      </div>
-      <div class="container">
-        <div class="col-md-6 pic">
-          <img src="assets/thinx_productpage_-07.jpg" alt="hiphugger" class="img-responsive col-md-7 center-block"/>
+        <div class="col-md-5">
+          <img src="assets/thinx_productpage_-05.jpg" alt="cheekyhugger" class="img-responsive" />
           <a href="#">
-            <h5><u>Shop Sport</u></h5>
+            <h5><u>Shop Thong</u></h5>
           </a>
           <p>
-            medium days
+            lightest days
           </p>
         </div>
+      </div>
+      <div class="container pic-row">
         <div class="col-md-6 pic">
-          <img src="assets/thinx_productpage_-08.jpg" alt="cheekyhugger" class="img-responsive col-md-7 center-block" />
-          <a href="#">
-            <h5><u>Shop Boyshort</u></h5>
-          </a>
-          <p>
-            light days
-          </p>
+          <div class="col-md-7">
+            <img src="assets/thinx_productpage_-07.jpg" alt="hiphugger" class="img-responsive"/>
+            <a href="#">
+              <h5><u>Shop Sport</u></h5>
+            </a>
+            <p>
+              medium days
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 pic">
+          <div class="col-md-7">
+            <img src="assets/thinx_productpage_-08.jpg" alt="cheekyhugger" class="img-responsive" />
+            <a href="#">
+              <h5><u>Shop Boyshort</u></h5>
+            </a>
+            <p>
+              light days
+            </p>
+          </div>
         </div>
       </div>
     </div>
+    <script src="js/script.js"></script>
   </body>
 </html>

@@ -90,7 +90,6 @@ li.dots {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 40px;
 }
 
 @media screen and (max-width: 1130px) {
@@ -107,4 +106,14 @@ li.dots {
 .color-button {
   display: flex;
   border: 1px solid black;
+}
+
+#bottom-gallery {
+  line-height: 100%;
+}
+.pic-row{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
