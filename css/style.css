@@ -13,10 +13,6 @@ html, body {
     width: 100%;
 }
 
-body {
-  min-width: 1130px;
-  overflow: auto;
-}
 
 ul {
     width: 100%;
@@ -44,7 +40,9 @@ a {
   text-decoration: none;
   color: black;
 }
-
+a#logo{
+  text-decoration: none;
+}
 a:hover {
   color: black;
   background-repeat: repeat-x;
@@ -80,6 +78,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  min-width: 400px;
 }
 
 
@@ -90,8 +89,22 @@ li.dots {
 .pic {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
 }
 
 @media screen and (max-width: 1130px) {
 
+}
+
+.btn span.glyphicon {
+	opacity: 0;
+}
+.btn.active span.glyphicon {
+	opacity: 1;
+}
+
+.color-button {
+  display: flex;
+  border: 1px solid black;
 }
