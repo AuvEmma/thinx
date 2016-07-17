@@ -117,3 +117,31 @@ li.dots {
     margin-top: 40px;
     margin-bottom: 40px;
 }
+
+.black {
+  background-color: black;
+  color: white;
+}
+
+.beige {
+  background-color: #FEDBB5;
+}
+
+.btn.black:hover{
+  color: white;
+}
+
+#add{
+  width: 100%;
+  background-color: black;
+  border: none;
+  color: white;
+}
+
+.btn-group {
+  display: flex;
+}
+.btn.active, .btn:active{
+  box-shadow: none !important;
+  -webkit-box-shadow;
+}

@@ -18,20 +18,22 @@
   <body>
     <nav id="nav-bar">
       <div class="container-fluid">
-        <ul id="nav-left-ul" class="col-md-4 text-center">
-          <li class="nav-list"><a href="#">MEN</a></li>
-          <li class="nav-list"><a href="#">WOMEN</a></li>
-          <li class="nav-list"><a href="#">SEARCH</a></li>
-        </ul>
-        <div id="nav-mid-logo" class="col-md-4">
-          <h1 class="text-center"><a href="#" id="logo">THINX</a></h1>
+        <div class="row">
+          <ul id="nav-left-ul" class="col-md-4 text-center">
+            <li class="nav-list"><a href="#">MEN</a></li>
+            <li class="nav-list"><a href="#">WOMEN</a></li>
+            <li class="nav-list"><a href="#">SEARCH</a></li>
+          </ul>
+          <div id="nav-mid-logo" class="col-md-4">
+            <h1 class="text-center"><a href="#" id="logo">THINX</a></h1>
+          </div>
+          <ul id="nav-right-ul" class="col-md-4">
+            <li class="nav-list"><a href="#">ENGLISH</a></li>
+            <li class="nav-list"><a href="#">CUSTOMER CARE</a></li>
+            <li class="nav-list"><a href="#">LOGIN</a></li>
+            <li class="nav-list"><a href="#">SHOPPING BAG</a></li>
+          </ul>
         </div>
-        <ul id="nav-right-ul" class="col-md-4 right">
-          <li class="nav-list"><a href="#">ENGLISH</a></li>
-          <li class="nav-list"><a href="#">CUSTOMER CARE</a></li>
-          <li class="nav-list"><a href="#">LOGIN</a></li>
-          <li class="nav-list"><a href="#">SHOPPING BAG</a></li>
-        </ul>
       </div>
     </nav>
     <div id="middle-section" class="container">
@@ -84,30 +86,30 @@
             $35.00
           </p>
           <div class="container-fluid">
-          	<div class="">
-          		<div class="btn-group color-button" data-toggle="buttons">
+          		<div class="btn-group" data-toggle="buttons">
+          			<div class="col-md-4">
+          			  <p>
+          			    Color
+          			  </p>
+          			</div>
 
-          			<label>
-          				Color
-          			</label>
-
-          			<label class="btn">
-          				<input type="radio" name="options" autocomplete="off">
+          			<label class="btn black col-md-4">
+          				<input id="selectBlk" type="radio" name="options" autocomplete="off">
           				<p>
           				  Black<span class="glyphicon glyphicon-ok"></span>
           				</p>
           			</label>
 
-          			<label class="btn">
-          				<input type="radio" name="options" autocomplete="off">
+          			<label class="btn beige col-md-4">
+          				<input id="selectBeige"type="radio" name="options" autocomplete="off">
                   <p>
                     Beige<span class="glyphicon glyphicon-ok"></span>
                   </p>
                 </label>
 
           		</div>
-          	</div>
-          </div>
+           </div>
+
           <div class="input-group">
             <span class="input-group-btn">
                 <button type="button" class="btn btn-default btn-number" disabled="disabled" data-type="minus" data-field="quant[1]">
@@ -121,12 +123,13 @@
                 </button>
             </span>
           </div>
+
           <p>
-            <a href="#">What's my size?</a>
+            <a href="#"><u>What's my size?</u></a>
           </p>
-          <button type="button" name="button">add to cart</button>
+          <button type="button" id="add">add to cart</button>
           <p>
-            build a cycle set and save up to 20%
+            <u><a href="#">build a cycle set and save up to 20%</a></u>
           </p>
         </div>
       </div>
