@@ -3,7 +3,7 @@
     src: url("assets/Graphik Medium.woff") format('woff');
 }
 
-html, body {
+body {
     font-family: 'Graphik-Medium';
     letter-spacing: 0.05em;
     line-height: 210%;
@@ -13,13 +13,14 @@ html, body {
     width: 100%;
 }
 
-img {
+img{
   opacity: 0.8;
 }
 
 img:hover{
   opacity: 1;
 }
+
 ul {
     width: 100%;
     margin: 0;
@@ -57,7 +58,7 @@ a:hover {
 }
 
 label.btn {
-  height: 35px;
+  height: 23px;
 }
 #nav-bar {
     width: 100%;
@@ -70,11 +71,13 @@ label.btn {
 }
 
 #middle-section {
-  display: flex;
   margin-top: 55px;
   width: 100%;
   font-size: 12px;
   background-color: #F8F8F9;
+}
+
+#middle-container{
 }
 
 #middle-left {
@@ -87,7 +90,6 @@ label.btn {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  min-width: 400px;
 }
 
 
@@ -103,6 +105,10 @@ li.dots {
 
 @media screen and (max-width: 1130px) {
 
+}
+.btn{
+  border-radius: 0;
+  padding: 0;
 }
 
 .btn span.glyphicon {
@@ -142,7 +148,7 @@ li.dots {
 
 #add{
   width: 100%;
-  height: 35px;
+  height: 25px;
   background-color: black;
   border: none;
   color: white;
@@ -165,4 +171,5 @@ li.dots {
   border: 1px solid black;
   padding: 0;
   margin-bottom: 20px;
+  height: 25px;
 }
