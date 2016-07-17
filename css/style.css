@@ -13,14 +13,6 @@ body {
     width: 100%;
 }
 
-img{
-  opacity: 0.8;
-}
-
-img:hover{
-  opacity: 1;
-}
-
 ul {
     width: 100%;
     margin: 0;
@@ -71,13 +63,12 @@ label.btn {
 }
 
 #middle-section {
+  display: flex;
+  flex-wrap: wrap;
   margin-top: 55px;
   width: 100%;
   font-size: 12px;
   background-color: #F8F8F9;
-}
-
-#middle-container{
 }
 
 #middle-left {
