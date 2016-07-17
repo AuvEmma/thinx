@@ -13,6 +13,11 @@ html, body {
     width: 100%;
 }
 
+body {
+  min-width: 1130px;
+  overflow: auto;
+}
+
 ul {
     width: 100%;
     margin: 0;
@@ -36,8 +41,6 @@ h2 {
 }
 
 #nav-bar {
-    display: flex;
-    justify-content: space-between;
     width: 100%;
     line-height: 55px;
     min-height: 58px;
@@ -45,38 +48,6 @@ h2 {
     position: fixed;
     top: 0;
     background: rgba(0,0,0);
-}
-
-#nav-left {
-    display: flex;
-    justify-content: center;
-    width: 33%;
-}
-
-#nav-right {
-  display: flex;
-  justify-content: center;
-  width: 33%;
-}
-
-#nav-logo{
-  display: flex;
-  justify-content: center;
-  width: 33%;
-}
-
-#nav-left-ul {
-    display: flex;
-    justify-content: space-around;
-    width: auto;
-    margin-left: 25px;
-}
-
-#nav-right-ul {
-    display: flex;
-    justify-content: space-around;
-    width: auto;
-    margin-right: 5px;
 }
 
 #middle-section {
@@ -87,6 +58,18 @@ h2 {
   background-color: #F8F8F9;
 }
 
+#middle-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
 li.dots {
   background-color: #C7C7C7;
+}
+
+
+@media screen and (max-width: 1130px) {
+
 }

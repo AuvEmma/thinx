@@ -9,47 +9,51 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!-- jQuery (necessary for Bootstrap"s JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <nav id='nav-bar'>
-      <ul id='nav-left-ul'>
+    <nav id="nav-bar">
+      <div class="container-fluid">
+      <ul id="nav-left-ul" class="col-md-4 text-center">
         <li class="nav-list">MEN</li>
         <li class="nav-list">WOMEN</li>
         <li class="nav-list">SEARCH</li>
       </ul>
 
-      <div id='nav-mid-logo'>
-          <h1>THINX</h1>
+      <div id="nav-mid-logo" class="col-md-4">
+          <h1 class="text-center">THINX</h1>
       </div>
 
-      <ul id='nav-right-ul'>
+      <ul id="nav-right-ul" class="col-md-4 right">
         <li class="nav-list">ENGLISH</li>
         <li class="nav-list">CUSTOMER CARE</li>
         <li class="nav-list">LOGIN</li>
         <li class="nav-list">SHOPPING BAG</li>
       </ul>
-    </nav>
+    </div>
+  </nav>
 
     <div id="middle-section" class="container">
-      <div id="middle-left" class="col-md-3">
-        <h2 class="text-left">HI-WAIST</h2>
+      <div id="middle-left" class="col-md-4">
+        <div id="middle-left-block" class="col-md-7 center-block">
+          <h2 class="text-left">HI-WAIST</h2>
 
-        <p class="text-left">
-          Heavy Days. Holds up to 2 tampon's worth.
-        </p>
+          <p class="text-left">
+            Heavy Days. Holds up to 2 tamponss worth.
+          </p>
 
-        <p class="text-left">
-          The phrase "treat yo'self" reaches new belly-button brushing heights with the Hi-Waist, and it's here just in time for cuffing season.
-        </p>
+          <p class="text-left">
+            The phrase "treat yo'self" reaches new belly-button brushing heights with the Hi-Waist, and it's here just in time for cuffing season.
+          </p>
+        </div>
       </div>
 
-      <div id="middle-pic" class="container">
-        <div id="myCarousel" class="carousel slide" data-ride='carousel'>
+      <div id="middle-pic" class="container col-md-4">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
             <li class="dots" data-target="#myCarousel" data-slide-to="0"></li>
             <li class="dots" data-target="#myCarousel" data-slide-to="1" class="active"></li>
@@ -83,13 +87,11 @@
           <div class="item">
             <img src="assets/highwaist_black_side_1024x1024.jpg" width="460" height="345">
           </div>
-
         </div>
       </div>
     </div>
 
-
-      <div id="middle-right" class="container">
+      <div id="middle-right" class="container col-md-4">
         <p id="price">
           $35.00
         </p>
@@ -106,8 +108,7 @@
             build a cycle set and save up to 20%
           </p>
       </div>
-  </div>
-
+    </div>
     <div id="bottom-gallery">
 
     </div>
